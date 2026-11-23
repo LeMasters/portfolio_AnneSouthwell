@@ -1,1 +1,8 @@
-[]
+- name: Unreal Engine 5
+  note: C++, Slate, Editor Utility Widgets
+- name: Unity
+  note: Editor scripting
+- name: Git and Git LFS
+- name: GitHub Actions
+- name: Perforce
+- name: Python
