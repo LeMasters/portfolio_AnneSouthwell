@@ -34,7 +34,9 @@ sections:
 
 
       “The writer changed one line. I had to open Unreal to tell her whether it
-      had made it into the game. That was the part I wanted to get rid of.”
+      had made it into the game. That was the part I wanted to get rid of.” One
+      writer finished an import, saw “1 missing translation” and asked me which
+      line. The importer knew the answer. I'd left it out of the interface.
   - heading: Prototype
     image: images/quill_section-prototype_900x1200.jpg
     alt: Pencil sketches of Quill's editor window, with sticky notes standing in for
@@ -48,7 +50,11 @@ sections:
     text: In the demo I follow one line from the spreadsheet into a dialogue node,
       then show where the writer can see that its translation is missing. The
       missing-line report checks the data at edit time, so she can check her own
-      change.
+      change. In the sample sheet, KEEP_014 changes from “Leave the lamp
+      burning” to “Leave the west lamp burning.” The writer can move the row
+      without breaking the branch because I match on its ID. Selecting the
+      warning now focuses that node and shows the empty French field. The writer
+      supplied the dialogue; I wrote the import and selection behavior.
   - heading: Outcome
     image: images/quill_section-outcome_1200x750.jpg
     alt: Quill's missing-line report, listing dialogue lines that have no
