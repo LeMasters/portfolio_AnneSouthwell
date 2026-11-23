@@ -11,6 +11,13 @@ tags:
   - Unreal Engine 5
   - Git LFS
   - GitHub Actions
+sections:
+  - heading: Which build did you open?
+    text: Our producer filed a ticket about an old line of dialogue. We eventually
+      worked out that she was playing yesterday's package, which had the same
+      name as today's. I put the short commit ID and build date on the title
+      screen and in the Discord post. On the next ticket she pasted the ID and
+      the writer and I could open exactly what she'd heard.
 weight: 2
 ---
 Tidewatch is a narrative lighthouse-keeper sim made by a seven-person senior team. I'm a gameplay programmer and the team's pipeline person: I set up the repository, Git LFS and branching rules, and a GitHub Actions build that posts a nightly packaged build to our Discord. I also brought Quill into the project. The game is in progress.
