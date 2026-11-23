@@ -20,7 +20,11 @@ sections:
       where they died, over a top-down image of the level.
   - heading: What a heatmap doesn't tell you
     text: I wrote a one-page method note to go with the tool. A heatmap shows where
-      players were, not why they were there or what they were trying to do.
+      players were, not why they were there or what they were trying to do. One
+      gate looked like a bottleneck until we lined up the pause with the
+      gate-open event. The gate was already open. The observer had written,
+      “Went back to watch the platform.” That became the worked example on my
+      method sheet.
 weight: 3
 ---
 Heatcheck is a drop-in C# package for Unity that logs player positions and custom events to JSON. A Python script turns the logs into heatmaps and death maps. My IMS314 class used it in usability studies of three student games.
