@@ -2,6 +2,7 @@
 title: The Beat Between Buoys
 projectKind: brief
 caption: A paper timing exercise for teaching editor scripting.
+image: images/beat-between-buoys_project-image_1800x1200.jpg
 alt: A strip of beat squares sits below a row of paper buoys, with the third
   buoy moved one square to the right.
 year: Fall 2026
