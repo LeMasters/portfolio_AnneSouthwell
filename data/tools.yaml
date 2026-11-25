@@ -1,10 +1,10 @@
 - tool: Unreal Engine
   note: UE5; C++, Slate, Editor Utility Widgets
-- name: Unity
+- tool: Unity
   note: Editor scripting
 - tool: Git
   note: Including Git LFS
 - tool: GitHub
   note: GitHub Actions
-- name: Perforce
-- name: Python
+- tool: Perforce
+- tool: Python
